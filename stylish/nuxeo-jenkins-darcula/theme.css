@@ -1,0 +1,76 @@
+/* Nuxeo Jenkins (Darcula) */
+
+:root {
+  /* darcula theme colors */
+  --darcula-dark-grey: #2b2b2b;
+  --darcula-light-grey: #a9b7c6;
+  --darcula-dark-orange: #cc7832;
+  --darcula-light-orange: #ffc66d;
+  --darcula-light-red: #bc3f3c;
+  /* color to variable mapping */
+  --console-background-color: var(--darcula-dark-grey);
+  --console-text-color: var(--darcula-light-grey);
+  --console-link-color: var(--darcula-dark-orange);
+  --console-warning-color: var(--darcula-light-orange);
+  --console-error-color: var(--darcula-light-red);
+}
+
+/* page body container */
+#page-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* main panel container */
+#main-panel {
+  margin: 0;
+  padding: 2em;
+  background-color: var(--console-background-color);
+  color: var(--console-text-color);
+  width: 1000em;
+}
+
+/* main panel container */
+#main-panel,
+/* all elements inside the main panel container */
+#main-panel * {
+  font-family: menlo;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* anchor links inside the main panel container */
+#main-panel a {
+  color: var(--console-link-color);
+}
+
+/* console output container */
+.console-output {
+  padding-top: 1em;
+}
+
+/* warnings */
+.warning-inline {
+  color: var(--console-warning-color);
+}
+
+/* errors */
+.error-inline {
+  color: var(--console-error-color);
+}
+
+/* hide all direct children of the main panel container but the console output and anchor links */
+#main-panel > :not(.console-output):not(a),
+/* hide side panel container */
+#side-panel,
+/* hide spinner */
+#spinner {
+  height: 0;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+}
+
+/* Applies to */
+/* URLs matching the regexp: ^https://qa.nuxeo.org/(.*)/(console|consoleFull)$ */
+/* URLs matching the regexp: ^https://qa2.nuxeo.org/(.*)/(console|consoleFull)$ */
