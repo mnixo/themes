@@ -1163,9 +1163,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>237 622 606 456 0 0 1200 1898 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>157 756 796 473 0 0 1200 1898 </string>
+	<string>157 848 796 473 0 0 1200 1898 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 48 1200 1171 0 0 1200 1898 </string>
+	<string>0 48 1200 1850 0 0 1200 1898 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 1533 585 352 0 0 1200 1898 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1210,13 +1210,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.13725490196078433</real>
+				<real>0.40392156862745099</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.75294117647058822</real>
+				<real>0.71764705882352942</real>
 				<key>Red Component</key>
-				<real>0.6588235294117647</real>
+				<real>0.46666666666666667</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -1288,13 +1288,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.13725490196078433</real>
+				<real>0.33333333333333331</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.75294117647058822</real>
+				<real>0.59215686274509804</real>
 				<key>Red Component</key>
-				<real>0.6588235294117647</real>
+				<real>0.3843137254901961</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -2119,7 +2119,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-02-22T20:07:29Z</date>
+	<date>2018-02-26T10:10:33Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
